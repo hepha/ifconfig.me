@@ -4,7 +4,7 @@ CURL=`which curl`
 URL='ifconfig.me'
 ARG=''
 
-if [$CURL == ""]
+if [ $CURL == "" ]
 then
 	echo "Curl is not installed. Please install curl and try again."
 	exit 1
